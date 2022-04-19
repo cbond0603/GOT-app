@@ -1,0 +1,1 @@
+https://www.anapioficeandfire.com/api/houses?page=1&pageSize=50

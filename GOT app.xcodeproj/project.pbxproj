@@ -13,6 +13,8 @@
 		9327A7C2280F09BE0044C8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9327A7C0280F09BE0044C8D5 /* Main.storyboard */; };
 		9327A7C4280F09C40044C8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9327A7C3280F09C40044C8D5 /* Assets.xcassets */; };
 		9327A7C7280F09C40044C8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9327A7C5280F09C40044C8D5 /* LaunchScreen.storyboard */; };
+		9327A7CF280F0D650044C8D5 /* HouseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327A7CE280F0D640044C8D5 /* HouseInfo.swift */; };
+		9327A7D1280F0DBC0044C8D5 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327A7D0280F0DBC0044C8D5 /* Houses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9327A7C3280F09C40044C8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9327A7C6280F09C40044C8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9327A7C8280F09C40044C8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9327A7CE280F0D640044C8D5 /* HouseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfo.swift; sourceTree = "<group>"; };
+		9327A7D0280F0DBC0044C8D5 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				9327A7BA280F09BE0044C8D5 /* AppDelegate.swift */,
 				9327A7BC280F09BE0044C8D5 /* SceneDelegate.swift */,
+				9327A7CE280F0D640044C8D5 /* HouseInfo.swift */,
+				9327A7D0280F0DBC0044C8D5 /* Houses.swift */,
 				9327A7BE280F09BE0044C8D5 /* ViewController.swift */,
 				9327A7C0280F09BE0044C8D5 /* Main.storyboard */,
 				9327A7C3280F09C40044C8D5 /* Assets.xcassets */,
@@ -140,6 +146,8 @@
 			files = (
 				9327A7BF280F09BE0044C8D5 /* ViewController.swift in Sources */,
 				9327A7BB280F09BE0044C8D5 /* AppDelegate.swift in Sources */,
+				9327A7D1280F0DBC0044C8D5 /* Houses.swift in Sources */,
+				9327A7CF280F0D650044C8D5 /* HouseInfo.swift in Sources */,
 				9327A7BD280F09BE0044C8D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
