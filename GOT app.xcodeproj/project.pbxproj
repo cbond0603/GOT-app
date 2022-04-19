@@ -15,6 +15,9 @@
 		9327A7C7280F09C40044C8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9327A7C5280F09C40044C8D5 /* LaunchScreen.storyboard */; };
 		9327A7CF280F0D650044C8D5 /* HouseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327A7CE280F0D640044C8D5 /* HouseInfo.swift */; };
 		9327A7D1280F0DBC0044C8D5 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327A7D0280F0DBC0044C8D5 /* Houses.swift */; };
+		9327A7D3280F14580044C8D5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327A7D2280F14580044C8D5 /* DetailViewController.swift */; };
+		9327A7D5280F19440044C8D5 /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327A7D4280F19430044C8D5 /* HouseDetailViewController.swift */; };
+		9327A7D7280F20990044C8D5 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327A7D6280F20980044C8D5 /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		9327A7C8280F09C40044C8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9327A7CE280F0D640044C8D5 /* HouseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfo.swift; sourceTree = "<group>"; };
 		9327A7D0280F0DBC0044C8D5 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		9327A7D2280F14580044C8D5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9327A7D4280F19430044C8D5 /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
+		9327A7D6280F20980044C8D5 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,9 @@
 				9327A7CE280F0D640044C8D5 /* HouseInfo.swift */,
 				9327A7D0280F0DBC0044C8D5 /* Houses.swift */,
 				9327A7BE280F09BE0044C8D5 /* ViewController.swift */,
+				9327A7D2280F14580044C8D5 /* DetailViewController.swift */,
+				9327A7D4280F19430044C8D5 /* HouseDetailViewController.swift */,
+				9327A7D6280F20980044C8D5 /* SplashScreenViewController.swift */,
 				9327A7C0280F09BE0044C8D5 /* Main.storyboard */,
 				9327A7C3280F09C40044C8D5 /* Assets.xcassets */,
 				9327A7C5280F09C40044C8D5 /* LaunchScreen.storyboard */,
@@ -146,9 +155,12 @@
 			files = (
 				9327A7BF280F09BE0044C8D5 /* ViewController.swift in Sources */,
 				9327A7BB280F09BE0044C8D5 /* AppDelegate.swift in Sources */,
+				9327A7D7280F20990044C8D5 /* SplashScreenViewController.swift in Sources */,
 				9327A7D1280F0DBC0044C8D5 /* Houses.swift in Sources */,
+				9327A7D3280F14580044C8D5 /* DetailViewController.swift in Sources */,
 				9327A7CF280F0D650044C8D5 /* HouseInfo.swift in Sources */,
 				9327A7BD280F09BE0044C8D5 /* SceneDelegate.swift in Sources */,
+				9327A7D5280F19440044C8D5 /* HouseDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

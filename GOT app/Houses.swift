@@ -12,9 +12,10 @@ class Houses {
     var houseArray: [HouseInfo] = []
     var url = "https://www.anapioficeandfire.com/api/houses?page=1&pageSize=50"
     var pageNumber = 1
+    var continueLoading = true
     
     func getData(completed: @escaping () -> ()) {
-        let urlString = url
+        let urlString = "https://www.anapioficeandfire.com/api/houses?page=\(pageNumber)&pageSize=50"
         print("🕸🕸 We are accessing the url \(urlString)")
         
         guard let url = URL(string: urlString) else {
@@ -33,9 +34,14 @@ class Houses {
             }
             //deal with data
             do {
-                self.houseArray = try JSONDecoder().decode([HouseInfo].self, from: data!)
-                print("*** \(self.houseArray)")
-                
+                let results = try JSONDecoder().decode([HouseInfo].self, from: data!)
+                //If there is data in the array, increment pageNumber by 1 and update the house array to equal houseArray + new Array
+                if results.count > 0 {
+                    self.pageNumber = self.pageNumber + 1
+                    self.houseArray = self.houseArray + results
+                } else {
+                    self.continueLoading = false
+                }
             } catch {
                 print("🤬 JSON ERROR: \(error.localizedDescription)")
             }
